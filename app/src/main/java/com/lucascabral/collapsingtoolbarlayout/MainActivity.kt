@@ -2,10 +2,25 @@ package com.lucascabral.collapsingtoolbarlayout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.lucascabral.collapsingtoolbarlayout.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        setupViews()
+        binding.mainFab.setOnClickListener {
+
+        }
+    }
+
+    private fun setupViews() {
+        val currentTime = System.currentTimeMillis()
+        binding.mainDate.text = currentTime.getYearMonthDay()
     }
 }

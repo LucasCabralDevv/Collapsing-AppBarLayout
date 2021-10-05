@@ -3,4 +3,7 @@
     <string name="lorem_ipsum_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare eros est, vitae placerat ipsum congue id. Morbi maximus commodo tortor et scelerisque. Donec eu velit in libero condimentum consectetur. Fusce volutpat ex nec porttitor sodales. Maecenas id felis id arcu laoreet rhoncus non eget dolor. Aenean nec metus efficitur, iaculis nisi id, dictum ipsum. Vestibulum luctus lectus ante, eget mattis felis viverra ac. Maecenas venenatis purus nisl, eu elementum odio consequat sed. Suspendisse malesuada sit amet justo non faucibus. Duis a egestas mi. Fusce sit amet elit mattis, sollicitudin elit eget, malesuada turpis. Donec convallis felis quis enim faucibus, ut elementum lorem pretium.
 
 Fusce a aliquam diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce posuere mi nisl, vel volutpat nulla consequat eget. Maecenas maximus justo erat, aliquet efficitur magna porta sit amet. Integer ut velit sem. Nam id ornare leo. Suspendisse potenti. Mauris gravida tristique diam vel convallis.</string>
+    <string name="main_name_profile">Lucas Cabral</string>
+    <string name="main_job_profile">Android Developer</string>
+    <string name="main_button_text">Buy me a coffee</string>
 </resources>

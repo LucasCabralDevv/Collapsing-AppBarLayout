@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
-                android:text="Lucas Cabral"
+                android:text="@string/main_name_profile"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="04/10/21"
+                tools:text="04/10/21"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="@id/mainProfile"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:text="Android Developer"
+                android:text="@string/main_job_profile"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@id/mainProfile"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="Buy me a coffee"
+                android:text="@string/main_button_text"
                 android:background="@drawable/button_bg"
                 android:textAllCaps="false"
                 android:textSize="18sp"
@@ -147,6 +147,7 @@
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mainFab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
