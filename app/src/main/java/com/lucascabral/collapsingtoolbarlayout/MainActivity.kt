@@ -36,5 +36,10 @@ class MainActivity : AppCompatActivity() {
                 )
             )
         }
+
+        binding.mainButton.setOnClickListener {
+            val url = "https://www.buymeacoffee.com/"
+            startActivity(Intent(Intent.ACTION_VIEW).setData(Uri.parse(url)))
+        }
     }
 }
