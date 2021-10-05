@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 private const val TIME_STAMP_FORMAT = "EEEE, MMMM d, yyyy - hh:mm:ss a"
-private const val DATE_FORMAT = "dd-MM-yyyy"
+private const val DATE_FORMAT = "dd/MM/yyyy"
 
 fun Long.getTimeStamp(): String {
     val date = Date(this)
